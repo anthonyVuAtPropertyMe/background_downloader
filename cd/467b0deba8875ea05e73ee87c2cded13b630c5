@@ -1,0 +1,26 @@
+android/src/main/kotlin/com/bbflight/background_downloader/TaskRunner.kt
+  s_e185589a20dc00::t_830fb90db3f578 594-611
+  s_e185589a20dc00::t_d3aeb851af819c 36,40,612-613
+android/src/main/kotlin/com/bbflight/background_downloader/HoldingQueue.kt
+  s_e185589a20dc00::t_535b12c04fb68b 258,267-270,278,300-302,304
+android/src/main/kotlin/com/bbflight/background_downloader/TaskWorker.kt
+  s_e185589a20dc00::t_581dd78480b2cb 9,11-12,147-149,159-196,206-231
+android/src/test/kotlin/com/bbflight/background_downloader/ReRunDecisionTest.kt
+  s_e185589a20dc00::t_4d3da95efcc678 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cd467b0deba8875ea05e73ee87c2cded13b630c5",
+  "prompts": {},
+  "sessions": {
+    "s_e185589a20dc00": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8e7a352c-9a5f-4fa3-b627-b84d1c3a0879",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Anthony Vu <anthonyvu@propertyme.com>"
+    }
+  }
+}
