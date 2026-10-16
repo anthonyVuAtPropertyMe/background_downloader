@@ -1,0 +1,110 @@
+android/src/main/kotlin/com/bbflight/background_downloader/TaskRunner.kt
+  s_e185589a20dc00::t_cdbdd7334480ee 588,590,593
+  s_5a3f3702c1fbe3::t_a5056bbba45a6d 625
+  s_e185589a20dc00::t_4512eb2f6acc60 626
+  s_5a3f3702c1fbe3::t_aa1c16285564fc 59,181-182,184-202,524-526,559,571,620-624,750
+  s_e185589a20dc00::t_1a42cf6850aa20 534-535
+  s_5a3f3702c1fbe3::t_2c59f2df38167f 183
+  s_e185589a20dc00::t_3184cb8f55ae9a 161-166
+  s_e185589a20dc00::t_d3aeb851af819c 36,40,612-613
+  s_e185589a20dc00::t_830fb90db3f578 594-611
+example/integration_test/general_test.dart
+  s_e185589a20dc00::t_955c0bfed38ca6 5378-5379
+  s_28e791f5360ced::t_43e0f25cbb9a20 4691-4693,4695,4699
+  s_28e791f5360ced::t_6c9fe6cc2cbaa4 4677-4679,4681-4688,4696-4698,5289,5292-5304,5307-5311,5313,5315-5321,5323-5326,5328,5330-5332,5336-5352,5361-5367,5373
+  s_e185589a20dc00::t_042e19dae98cd0 5368-5372,5374-5377,5380-5381
+  s_e185589a20dc00::t_13a71b74094f89 5388
+  s_e185589a20dc00::t_1ae2e15081f2c6 5354-5360
+  s_b6b90a835bfa4a::t_229a5b79a35c34 4669-4671,4673-4676,4689-4690
+  s_28e791f5360ced::t_f6d1d3f369a6ce 4672,4694
+  s_5a3f3702c1fbe3::t_4b092136e14e25 4680,5335
+  s_28e791f5360ced::t_300aada7b82dac 5290-5291,5334
+  s_e185589a20dc00::t_88d05fb4acc0b0 5384-5387,5389-5392,5423
+  s_5a3f3702c1fbe3::t_ab1e3896021761 5305-5306,5312,5314,5327,5329,5333,5353,5382-5383,5393-5422
+  s_e185589a20dc00::t_f926d8ea397248 5322
+android/src/main/kotlin/com/bbflight/background_downloader/WiFi.kt
+  s_28e791f5360ced::t_300aada7b82dac 34,44,86
+  s_e185589a20dc00::t_0a7a14a7b267d2 155-157
+  s_5a3f3702c1fbe3::t_20411c0d3d3411 84,117-120,136,140,142,152-154,161-167
+  s_e185589a20dc00::t_d0d41980b876f8 158-160
+  s_28e791f5360ced::t_d02340d592e63e 89
+  s_e185589a20dc00::t_92f0cc20528c51 50-51,53
+  s_28e791f5360ced::t_a8f69025ad3684 33
+  s_28e791f5360ced::t_e83a5e1c76c5d1 8,13,32,35-36,41-42,45,64,83,85,87-88
+  s_e185589a20dc00::t_152f8dba346bd1 46-48,52
+android/src/main/kotlin/com/bbflight/background_downloader/BDPlugin.kt
+  s_5a3f3702c1fbe3::t_aa1c16285564fc 127-128
+  s_b6b90a835bfa4a::t_2e642b3228045f 473
+  s_e185589a20dc00::t_5dc18e42d43023 523-527,529-536
+  s_e185589a20dc00::t_11fbcee34b20e7 129-130
+  s_28e791f5360ced::t_300aada7b82dac 472
+  s_e185589a20dc00::t_6fff883e4b31d7 522
+  s_28e791f5360ced::t_d0281853e2e96e 474
+  s_e185589a20dc00::t_028cb143d4fbf5 528
+  s_e185589a20dc00::t_fab217f7b90c71 479,486-488
+  s_e185589a20dc00::t_3e625f843f3372 891,898-900
+  s_5a3f3702c1fbe3::t_d7bac8a6b320d7 116-117
+test_server/test_server.py
+  s_e185589a20dc00::t_f00cce2c77e4c6 210-221
+  s_e185589a20dc00::t_23b65561089a7a 169-174,181,184,186-200
+test_server/test_server_test.py
+  s_e185589a20dc00::t_1093f154b541c0 73-84
+android/src/main/kotlin/com/bbflight/background_downloader/TaskWorker.kt
+  s_5a3f3702c1fbe3::t_aa1c16285564fc 75-76
+  s_e185589a20dc00::t_581dd78480b2cb 9,11-12,147-149,159-196,206-231
+android/src/main/kotlin/com/bbflight/background_downloader/UIDTJobService.kt
+  s_5a3f3702c1fbe3::t_aa1c16285564fc 97
+android/src/main/kotlin/com/bbflight/background_downloader/HoldingQueue.kt
+  s_5a3f3702c1fbe3::t_aa1c16285564fc 347,370-390
+  s_e185589a20dc00::t_ba79a6d30fa665 73
+  s_28e791f5360ced::t_dfae88ba768a5b 240-243
+  s_e185589a20dc00::t_562cf454f084fe 391
+  s_e185589a20dc00::t_156834ced6e611 71-72
+  s_28e791f5360ced::t_300aada7b82dac 47
+  s_28e791f5360ced::t_879bb62e675577 48,81,239,261
+  s_e185589a20dc00::t_535b12c04fb68b 258,267-270,278,300-302,304
+example/integration_test/test_utils.dart
+  s_e185589a20dc00::t_13a71b74094f89 45-46
+android/src/test/kotlin/com/bbflight/background_downloader/ReRunDecisionTest.kt
+  s_e185589a20dc00::t_4d3da95efcc678 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "37d07be3d8954c393b6d61fbeaa4159febd1d211",
+  "prompts": {},
+  "sessions": {
+    "s_28e791f5360ced": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "89a0420e-2520-4dc8-882f-81fc149b27f1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Anthony Vu <anthonyvu@propertyme.com>"
+    },
+    "s_5a3f3702c1fbe3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "77d77ede-b85f-468f-8a70-5eb8a84e3740",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Anthony Vu <anthonyvu@propertyme.com>"
+    },
+    "s_b6b90a835bfa4a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "58a44879-35bb-4a77-be04-85ef56f874b2",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Anthony Vu <anthonyvu@propertyme.com>"
+    },
+    "s_e185589a20dc00": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8e7a352c-9a5f-4fa3-b627-b84d1c3a0879",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Anthony Vu <anthonyvu@propertyme.com>"
+    }
+  }
+}
