@@ -128,8 +128,6 @@ class BDPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
             ConcurrentHashMap.newKeySet() // <runId> of canceled runs whose holding queue slot was released
         val startedRunIds: MutableSet<String> =
             ConcurrentHashMap.newKeySet() // <runId> of runs that release their own slot when they end
-        val taskIdsRequiringWiFi =
-            Collections.synchronizedSet(mutableSetOf<String>()) // ensures correctness when enqueueing task
         val notificationConfigJsonStrings =
             Collections.synchronizedMap(mutableMapOf<String, String>()) // by taskId
         var forceFailPostOnBackgroundChannel = false
@@ -191,9 +189,6 @@ class BDPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
             }
 
             val taskRequiresWifi = taskRequiresWifi(task)
-            if (taskRequiresWifi) {
-                taskIdsRequiringWiFi.add(task.taskId)
-            }
 
             var success = false
             if (useJobScheduler) {
