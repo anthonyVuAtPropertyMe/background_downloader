@@ -4717,7 +4717,8 @@ void main() {
       timeout: const Timeout(Duration(minutes: 4)),
       skip: !Platform.isAndroid,
       () async {
-        // the test server sleeps 50ms per KB, so a 300KB upload takes ~15s
+        // the test server holds each upload's response for 15s, and counts it
+        // as in flight only while the client stays connected
         const stallFilename = 'holding_queue_stall.bin';
         final stallFile = File(
           join((await getApplicationDocumentsDirectory()).path, stallFilename),
@@ -4725,7 +4726,7 @@ void main() {
         addTearDown(stallFile.deleteSync);
         await expectHoldingQueueCapAcrossRequireWiFiChanges(
           () => UploadTask(
-            url: uploadBinaryTestUrl,
+            url: uploadHoldTestUrl,
             filename: stallFilename,
             post: 'binary',
           ),
